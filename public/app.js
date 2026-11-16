@@ -41,7 +41,7 @@ const resumeQuizBtn   = document.getElementById("resume-quiz-btn");
 let myName = "";
 let currentRiddleId = null;
 let selectedOption = null;
-let totalQuestions = 40;
+let totalQuestions = 50;
 let answeredCount = 0;
 let tabSwitchCount = 0;
 let lastTabSwitchTime = 0;
@@ -123,7 +123,7 @@ function renderLobbyPlayers(playersList) {
   lobbyPlayers.innerHTML = playersList
     .map(name => {
       const isMe = name === myName ? " is-me" : "";
-      return `<div class="lobby-player${isMe}">🧑‍💻 ${escHtml(name)}</div>`;
+      return `<div class="lobby-player${isMe}">🧙‍♂️ ${escHtml(name)}</div>`;
     })
     .join("");
 }
@@ -140,7 +140,7 @@ socket.on("game_started", (data) => {
   }
   displayName.textContent = myName;
   displayScore.textContent = data.score || 0;
-  totalQuestions = data.total || 40;
+  totalQuestions = data.total || 50;
   answeredCount = data.answered || data.solved || 0;
   displaySolved.textContent = answeredCount;
   displayTotal.textContent = totalQuestions;
@@ -162,7 +162,7 @@ socket.on("joined", (data) => {
   }
   displayName.textContent = data.name;
   displayScore.textContent = data.score || 0;
-  totalQuestions = data.total || 40;
+  totalQuestions = data.total || 50;
   answeredCount = (data.answered != null) ? data.answered : (data.solved || 0);
   displaySolved.textContent = answeredCount;
   displayTotal.textContent = totalQuestions;
@@ -232,7 +232,7 @@ function showRiddle(r) {
   submitBtn.dataset.submitting = "false";
   submitBtn.textContent = "Submit Answer ➔";
 
-  riddleCat.textContent = "🌐 " + (r.category || "Networking Fundamentals");
+  riddleCat.textContent = "🔮 " + (r.category || "Arcane Computing");
   riddleText.textContent = r.question || r.riddle;
 
   if (qCurrNum) qCurrNum.textContent = Math.min(answeredCount + 1, totalQuestions);

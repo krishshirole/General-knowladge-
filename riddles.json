@@ -1,482 +1,602 @@
 [
   {
     "id": 1,
-    "question": "Which statement best describes the fundamental definition of a computer network?",
+    "question": "At Hogwarts, the Sorting Hat analyzes a new student's traits step-by-step using a set of rules to place them into Gryffindor, Hufflepuff, Ravenclaw, or Slytherin. In computer science, what is such a finite, step-by-step procedure called?",
     "options": [
-      "A group of connected devices that exchange data and share resources",
-      "A single standalone computer operating offline without cables",
-      "A software program used strictly for editing text documents",
-      "A collection of monitors connected to a single power outlet"
+      "Algorithm",
+      "Compiler",
+      "Bandwidth",
+      "Motherboard"
     ],
-    "answer": "A group of connected devices that exchange data and share resources",
-    "category": "Network Foundations"
+    "answer": "Algorithm",
+    "category": "Hogwarts Algorithms"
   },
   {
     "id": 2,
-    "question": "In data communications, what term refers to the formal set of rules governing how devices exchange information?",
+    "question": "Sauron forged 'One Ring to rule them all', designed so that no other ring shares its unique power. In a relational database, what attribute uniquely identifies each record and prevents duplicates?",
     "options": [
-      "Protocols",
-      "Compilers",
-      "Algorithms",
-      "Topologies"
+      "Primary Key",
+      "Foreign Key",
+      "Foreign Index",
+      "Temporary Variable"
     ],
-    "answer": "Protocols",
-    "category": "Network Foundations"
+    "answer": "Primary Key",
+    "category": "Mordor Databases"
   },
   {
     "id": 3,
-    "question": "Which capability represents a core communication benefit enabled by modern computer networks?",
+    "question": "In Game of Thrones, the massive 700-foot ice Wall protects Westeros by inspecting everyone who arrives and blocking Wildlings or White Walkers based on strict rules. Which computer security system performs this exact traffic-filtering role?",
     "options": [
-      "Sending messages, emails, video calls, and web access",
-      "Cooling down internal computer processors",
-      "Increasing the physical voltage of electrical outlets",
-      "Erasing unwanted files automatically from hard drives"
+      "Firewall",
+      "Repeater",
+      "Optical Drive",
+      "Cache Memory"
     ],
-    "answer": "Sending messages, emails, video calls, and web access",
-    "category": "Network Foundations"
+    "answer": "Firewall",
+    "category": "Westeros Security"
   },
   {
     "id": 4,
-    "question": "Which peripheral hardware device is most frequently shared across a networked office or university lab?",
+    "question": "Harry's Invisibility Cloak renders secret data invisible and unreadable to eavesdroppers while moving through Hogwarts. What computer technique scrambles plain text into unreadable ciphertext to protect data?",
     "options": [
-      "Printers",
-      "CPU heat sinks",
-      "CMOS batteries",
-      "Power cables"
+      "Encryption",
+      "Defragmentation",
+      "Overclocking",
+      "Compilation"
     ],
-    "answer": "Printers",
-    "category": "Network Foundations"
+    "answer": "Encryption",
+    "category": "Hogwarts Cryptography"
   },
   {
     "id": 5,
-    "question": "Which interactive simulation software developed by Cisco allows students to design network topologies and analyze packet flow?",
+    "question": "The Seeing Stones (Palantíri) in Middle-earth allow Gandalf and Saruman to communicate across distant realms. For devices on the global Internet to locate and route packets to one another, what logical address must each device have?",
     "options": [
-      "Cisco Packet Tracer",
-      "Wireshark Studio",
-      "Microsoft Visio",
-      "VirtualBox Manager"
+      "IP Address",
+      "CPU Clock Speed",
+      "RAM Bus Width",
+      "Monitor Resolution"
     ],
-    "answer": "Cisco Packet Tracer",
-    "category": "Simulation & Tools"
+    "answer": "IP Address",
+    "category": "Middle-earth Networks"
   },
   {
     "id": 6,
-    "question": "What does the networking abbreviation 'PAN' officially stand for?",
+    "question": "In Professor Dumbledore's Pensieve, he layers magical memory strands into a basin. When retrieving thoughts, the very last memory placed inside is the first one examined. Which data structure follows this Last-In, First-Out (LIFO) principle?",
     "options": [
-      "Personal Area Network",
-      "Public Access Network",
-      "Private Application Node",
-      "Primary Area Network"
+      "Stack",
+      "Queue",
+      "Array",
+      "Binary Tree"
     ],
-    "answer": "Personal Area Network",
-    "category": "Network Types"
+    "answer": "Stack",
+    "category": "Hogwarts Data Structures"
   },
   {
     "id": 7,
-    "question": "A short-range wireless Bluetooth link between your smartphone and wireless earbuds is classified as which network type?",
+    "question": "At Castle Black, recruits line up for their turn to take the Night's Watch oath. The first recruit who arrives in line is the first one sworn in. Which data structure follows this First-In, First-Out (FIFO) principle?",
     "options": [
-      "PAN (Personal Area Network)",
-      "WAN (Wide Area Network)",
-      "MAN (Metropolitan Area Network)",
-      "SAN (Storage Area Network)"
+      "Queue",
+      "Stack",
+      "Heap",
+      "Hash Map"
     ],
-    "answer": "PAN (Personal Area Network)",
-    "category": "Network Types"
+    "answer": "Queue",
+    "category": "Westeros Data Structures"
   },
   {
     "id": 8,
-    "question": "What does the networking acronym 'LAN' represent?",
+    "question": "In the Dwarven libraries of Moria, records of mithril mines are sorted numerically by year. If Gimli searches by repeatedly dividing the sorted records in half to find a year, which algorithm is he using?",
     "options": [
-      "Local Area Network",
-      "Logical Access Node",
-      "Large Array Network",
-      "Linked Application Network"
+      "Binary Search",
+      "Linear Search",
+      "Bubble Sort",
+      "Depth-First Search"
     ],
-    "answer": "Local Area Network",
-    "category": "Network Types"
+    "answer": "Binary Search",
+    "category": "Middle-earth Algorithms"
   },
   {
     "id": 9,
-    "question": "A localized computer setup spanning a single room, lab, or office floor is categorized as a:",
+    "question": "Wizards enter fireplace grates in the Floo Network and are routed to different magical households based on destination names. Which network device similarly routes data packets between different IP networks?",
     "options": [
-      "LAN (Local Area Network)",
-      "WAN (Wide Area Network)",
-      "MAN (Metropolitan Area Network)",
-      "PAN (Personal Area Network)"
+      "Router",
+      "Repeater",
+      "Hub",
+      "Unmanaged Bridge"
     ],
-    "answer": "LAN (Local Area Network)",
-    "category": "Network Types"
+    "answer": "Router",
+    "category": "Hogwarts Networking"
   },
   {
     "id": 10,
-    "question": "Which network scope is engineered to provide connectivity across an entire town or municipality?",
+    "question": "Geralt of Rivia searches his Monster Bestiary by looking up a monster's name (the key) to immediately retrieve its specific weaknesses (the value). Which computer data structure stores data as key-value pairs?",
     "options": [
-      "MAN (Metropolitan Area Network)",
-      "LAN (Local Area Network)",
-      "PAN (Personal Area Network)",
-      "CAN (Campus Area Network)"
+      "Dictionary / Hash Map",
+      "Linked List",
+      "Stack",
+      "Queue"
     ],
-    "answer": "MAN (Metropolitan Area Network)",
-    "category": "Network Types"
+    "answer": "Dictionary / Hash Map",
+    "category": "Witcher Data Structures"
   },
   {
     "id": 11,
-    "question": "Which classification applies to a large-scale network spanning across regions, countries, or international borders?",
+    "question": "Maesters at the Citadel send ravens addressed to castles like 'Winterfell', and the birds find the exact physical castle location. Which Internet service translates human-friendly domain names (like www.google.com) into numerical IP addresses?",
     "options": [
-      "WAN (Wide Area Network)",
-      "LAN (Local Area Network)",
-      "PAN (Personal Area Network)",
-      "WLAN (Wireless Local Area Network)"
+      "DNS (Domain Name System)",
+      "DHCP",
+      "FTP",
+      "ARP"
     ],
-    "answer": "WAN (Wide Area Network)",
-    "category": "Network Types"
+    "answer": "DNS (Domain Name System)",
+    "category": "Citadel Protocols"
   },
   {
     "id": 12,
-    "question": "The worldwide Internet operates as the largest and most prominent real-world example of a:",
+    "question": "Just as the fiery heart of Mount Doom is where the Ring was forged and where the fate of Middle-earth is determined, which central hardware component executes all computer instructions and performs logical processing?",
     "options": [
-      "WAN",
-      "LAN",
-      "PAN",
-      "MAN"
+      "Central Processing Unit (CPU)",
+      "Hard Disk Drive (HDD)",
+      "Solid State Drive (SSD)",
+      "Power Supply Unit (PSU)"
     ],
-    "answer": "WAN",
-    "category": "Network Types"
+    "answer": "Central Processing Unit (CPU)",
+    "category": "Middle-earth Hardware"
   },
   {
     "id": 13,
-    "question": "In which physical network topology does every endpoint connect directly back to a central switch?",
+    "question": "The Room of Requirement at Hogwarts transforms instantly to hold whatever a wizard needs, but when everyone leaves and the magic powers down, its contents vanish. Which volatile computer memory temporarily holds active programs and clears upon reboot?",
     "options": [
-      "Star Topology",
-      "Bus Topology",
-      "Mesh Topology",
-      "Ring Topology"
+      "RAM (Random Access Memory)",
+      "ROM (Read-Only Memory)",
+      "Optical Disk",
+      "Magnetic Tape"
     ],
-    "answer": "Star Topology",
-    "category": "Network Topologies"
+    "answer": "RAM (Random Access Memory)",
+    "category": "Hogwarts Memory"
   },
   {
     "id": 14,
-    "question": "Which network layout connects all participating devices in line along a single shared backbone cable?",
+    "question": "Master Jocasta Nu declares that ancient core records in the Jedi Archives cannot be altered or overwritten by unauthorized visitors. Which non-volatile computer chip contains permanent startup instructions (BIOS/UEFI) that cannot be easily overwritten?",
     "options": [
-      "Bus Topology",
-      "Star Topology",
-      "Mesh Topology",
-      "Ring Topology"
+      "ROM (Read-Only Memory)",
+      "RAM (Random Access Memory)",
+      "CPU Cache L1",
+      "Virtual Memory"
     ],
-    "answer": "Bus Topology",
-    "category": "Network Topologies"
+    "answer": "ROM (Read-Only Memory)",
+    "category": "Galactic Memory"
   },
   {
     "id": 15,
-    "question": "Which topology incorporates redundant point-to-point connections so data can be rerouted if any single link goes down?",
+    "question": "Valyrian steel daggers are the fastest, sharpest weapons closest to a combatant's hand. Which ultra-fast memory storage is located directly inside the CPU chip to provide near-instant data access?",
     "options": [
-      "Mesh Topology",
-      "Bus Topology",
-      "Star Topology",
-      "Tree Topology"
+      "Registers & CPU Cache",
+      "External Hard Drive",
+      "Cloud Backup",
+      "Network Attached Storage"
     ],
-    "answer": "Mesh Topology",
-    "category": "Network Topologies"
+    "answer": "Registers & CPU Cache",
+    "category": "Westeros Architecture"
   },
   {
     "id": 16,
-    "question": "When an organization blends two or more distinct topological architectures into a single network, it is called a:",
+    "question": "Hermione uses a Time-Turner to revisit earlier points in time, creating a loop where a wizard interacts with a previous version of herself until a stopping condition is reached. In programming, what is a function that calls itself called?",
     "options": [
-      "Hybrid Topology",
-      "Composite Topology",
-      "Dual Topology",
-      "Complex Topology"
+      "Recursive Function",
+      "Static Method",
+      "Destructor",
+      "Infinite Macro"
     ],
-    "answer": "Hybrid Topology",
-    "category": "Network Topologies"
+    "answer": "Recursive Function",
+    "category": "Hogwarts Programming"
   },
   {
     "id": 17,
-    "question": "Which hardware unit combats signal attenuation by receiving, cleaning, and amplifying signals over extended cabling distances?",
+    "question": "Treebeard leads the Entmoot through a hierarchy branching out from root elders to limb branches and leaves. What non-linear computer data structure organizes data hierarchically starting from a 'root' node to 'leaf' nodes?",
     "options": [
-      "Repeater",
-      "Firewall",
-      "Bridge",
-      "Router"
+      "Tree",
+      "Array",
+      "Queue",
+      "Stack"
     ],
-    "answer": "Repeater",
-    "category": "Networking Devices"
+    "answer": "Tree",
+    "category": "Middle-earth Data Structures"
   },
   {
     "id": 18,
-    "question": "Which legacy networking device operates as a simple multiport repeater, broadcasting all incoming frames out to every port?",
+    "question": "In Narnia, Lucy steps through the back of an ordinary wardrobe to leave the human world and enter the magical realm of Narnia. On a computer network, what is the router address that allows a local device to exit its LAN and reach outside networks?",
     "options": [
-      "Hub",
-      "Layer-2 Switch",
-      "Router",
-      "Firewall"
+      "Default Gateway",
+      "Loopback Address",
+      "Subnet Mask",
+      "MAC Broadcast"
     ],
-    "answer": "Hub",
-    "category": "Networking Devices"
+    "answer": "Default Gateway",
+    "category": "Narnia Networking"
   },
   {
     "id": 19,
-    "question": "Which device is designed to divide or join two distinct LAN segments and filter traffic based on MAC addresses?",
+    "question": "When Barty Crouch Jr. drinks Polyjuice Potion, he disguises his appearance to impersonate Professor Mad-Eye Moody. In cybersecurity, what is it called when an attacker impersonates a trusted IP address or email identity to deceive targets?",
     "options": [
-      "Bridge",
-      "Repeater",
-      "Modem",
-      "Hub"
+      "Spoofing",
+      "Defragmentation",
+      "Compiling",
+      "Overclocking"
     ],
-    "answer": "Bridge",
-    "category": "Networking Devices"
+    "answer": "Spoofing",
+    "category": "Dark Arts & Security"
   },
   {
     "id": 20,
-    "question": "Which modern LAN device builds a MAC address table to intelligently forward Ethernet frames exclusively to the intended recipient?",
+    "question": "Frodo and Sam journey across the wastes of Mordor communicating directly with one another without answering to any central king or master. Which network architecture connects two computers directly with equal privileges without a dedicated central server?",
     "options": [
-      "Layer-2 Switch",
-      "Hub",
-      "Repeater",
-      "Modem"
+      "Peer-to-Peer (P2P)",
+      "Client-Server",
+      "Mainframe-Terminal",
+      "Star Hierarchy"
     ],
-    "answer": "Layer-2 Switch",
-    "category": "Networking Devices"
+    "answer": "Peer-to-Peer (P2P)",
+    "category": "Middle-earth Networking"
   },
   {
     "id": 21,
-    "question": "Which layer-3 device examines IP packet headers to route traffic between disparate logical subnets or networks?",
+    "question": "Doctor Strange casts spells into the Mirror Dimension—an isolated, simulated realm where real-world structures are mirrored without affecting the physical universe. What computing technology runs isolated simulated operating systems on top of real physical hardware?",
     "options": [
-      "Router",
-      "Layer-2 Switch",
-      "Hub",
-      "Repeater"
+      "Virtualization (Virtual Machines)",
+      "Overclocking",
+      "Hardware Splicing",
+      "Cold Booting"
     ],
-    "answer": "Router",
-    "category": "Networking Devices"
+    "answer": "Virtualization (Virtual Machines)",
+    "category": "Mystic Computing"
   },
   {
     "id": 22,
-    "question": "Which fundamental statement accurately distinguishes the operational roles of a switch versus a router?",
+    "question": "Bran Stark as the Three-Eyed Raven doesn't physically walk to every castle; he merely 'points' his mind to specific coordinates in history. In languages like C and C++, what special variable stores the memory address of another variable?",
     "options": [
-      "A switch connects devices within a LAN; a router connects different networks",
-      "A router connects devices within a LAN; a switch connects different networks",
-      "A hub connects devices within a LAN; a repeater connects different networks",
-      "A bridge connects devices within a LAN; a switch connects different networks"
+      "Pointer",
+      "Integer",
+      "Boolean",
+      "Character Constant"
     ],
-    "answer": "A switch connects devices within a LAN; a router connects different networks",
-    "category": "Networking Devices"
+    "answer": "Pointer",
+    "category": "Westeros Programming"
   },
   {
     "id": 23,
-    "question": "Which dedicated security mechanism inspects incoming and outgoing network traffic and enforces allow/deny policies?",
+    "question": "The unforgivable curse Avada Kedavra instantly terminates an adversary's life without delay. In Unix and Linux operating systems, which command or signal immediately and forcibly terminates a running process?",
     "options": [
-      "Firewall",
-      "Repeater",
-      "Hub",
-      "Bridge"
+      "kill -9 (SIGKILL)",
+      "sleep",
+      "grep",
+      "chmod"
     ],
-    "answer": "Firewall",
-    "category": "Networking Devices"
+    "answer": "kill -9 (SIGKILL)",
+    "category": "Arcane Operating Systems"
   },
   {
     "id": 24,
-    "question": "How many distinct hierarchical layers make up the standard OSI reference model?",
+    "question": "Dwarven blacksmiths forge mithril ingots in clusters of 16. In computer science, which number system uses base 16 with digits 0–9 and letters A–F to represent large binary values compactly?",
     "options": [
-      "7 layers",
-      "4 layers",
-      "5 layers",
-      "6 layers"
+      "Hexadecimal",
+      "Octal",
+      "Decimal",
+      "Binary"
     ],
-    "answer": "7 layers",
-    "category": "OSI Model"
+    "answer": "Hexadecimal",
+    "category": "Dwarven Number Systems"
   },
   {
     "id": 25,
-    "question": "Which uppermost OSI layer (Layer 7) provides network interfaces and communication services directly to end-user software?",
+    "question": "A Witcher sign is either cast or uncast, evaluating to one of only two possible states: active (True) or inactive (False). Which computer data type holds only two truth values: True or False?",
     "options": [
-      "Application Layer",
-      "Transport Layer",
-      "Session Layer",
-      "Data Link Layer"
+      "Boolean",
+      "Float",
+      "Double",
+      "String"
     ],
-    "answer": "Application Layer",
-    "category": "OSI Model"
+    "answer": "Boolean",
+    "category": "Witcher Logic"
   },
   {
     "id": 26,
-    "question": "Which fundamental layer of the OSI model (Layer 1) manages unstructured bitstreams across physical copper, fiber, or wireless media?",
+    "question": "The great houses of Westeros declare unchanging mottos: 'Winter is Coming' (Stark) and 'Hear Me Roar' (Lannister). What programming concept defines an identifier whose value cannot be reassigned or modified after creation?",
     "options": [
-      "Physical Layer",
-      "Data Link Layer",
-      "Network Layer",
-      "Transport Layer"
+      "Constant (const)",
+      "Global Variable",
+      "Dynamic Pointer",
+      "Volatile Loop"
     ],
-    "answer": "Physical Layer",
-    "category": "OSI Model"
+    "answer": "Constant (const)",
+    "category": "Westeros Programming"
   },
   {
     "id": 27,
-    "question": "Which OSI layer (Layer 2) packages raw bits into structured frames and handles node-to-node delivery via MAC addresses?",
+    "question": "Hermione casts a spell to rearrange hundreds of library spellbooks alphabetically from A to Z. What general class of algorithmic procedures arranges unordered data into a designated sequence?",
     "options": [
-      "Data Link Layer",
-      "Network Layer",
-      "Transport Layer",
-      "Session Layer"
+      "Sorting Algorithms",
+      "Hashing Algorithms",
+      "Routing Protocols",
+      "Compression Codecs"
     ],
-    "answer": "Data Link Layer",
-    "category": "OSI Model"
+    "answer": "Sorting Algorithms",
+    "category": "Hogwarts Algorithms"
   },
   {
     "id": 28,
-    "question": "Which layer of the OSI model (Layer 3) is responsible for logical IP addressing, path determination, and packet forwarding?",
+    "question": "The fiery Elvish script engraved on the One Ring translates ancient speech into visible characters. What worldwide standard encoding system assigns unique numeric code points to every letter, character, and symbol across all human and fantasy languages?",
     "options": [
-      "Network Layer",
-      "Transport Layer",
-      "Data Link Layer",
-      "Physical Layer"
+      "Unicode (UTF-8)",
+      "ASCII-7",
+      "BCD",
+      "EBCDIC"
     ],
-    "answer": "Network Layer",
-    "category": "OSI Model"
+    "answer": "Unicode (UTF-8)",
+    "category": "Middle-earth Encodings"
   },
   {
     "id": 29,
-    "question": "Which OSI layer (Layer 4) oversees host-to-host segment delivery, flow control, and multiplexing using TCP or UDP?",
+    "question": "Aang must master four elements in order: [Water, Earth, Fire, Air]. In programming, what indexed data structure stores elements of the same type at contiguous, sequential memory locations accessible via indices like elements[0]?",
     "options": [
-      "Transport Layer",
-      "Session Layer",
-      "Network Layer",
-      "Presentation Layer"
+      "Array",
+      "Linked List",
+      "Graph",
+      "Tree"
     ],
-    "answer": "Transport Layer",
-    "category": "OSI Model"
+    "answer": "Array",
+    "category": "Elemental Data Structures"
   },
   {
     "id": 30,
-    "question": "Which OSI layer (Layer 6) acts as a data translator, handling data syntax formatting, character encoding, encryption, and compression?",
+    "question": "The Marauder's Map tracks the unique, permanent physical identity of every person walking in Hogwarts regardless of where they roam. Which unique 48-bit physical hardware address is permanently burned into a device's network card?",
     "options": [
-      "Presentation Layer",
-      "Application Layer",
-      "Session Layer",
-      "Transport Layer"
+      "MAC Address",
+      "IPv4 Address",
+      "Port Number",
+      "Default Subnet"
     ],
-    "answer": "Presentation Layer",
-    "category": "OSI Model"
+    "answer": "MAC Address",
+    "category": "Hogwarts Hardware"
   },
   {
     "id": 31,
-    "question": "What fundamental role does an IP (Internet Protocol) address fulfill in a computer network?",
+    "question": "Daenerys Targaryen commands Drogon, Rhaegal, and Viserion simultaneously to strike three different targets in parallel. What modern CPU architecture incorporates multiple independent processing units on a single chip to execute tasks concurrently?",
     "options": [
-      "Uniquely identifying a device logically on a network for routing data",
-      "Measuring the physical temperature of the CPU",
-      "Storing operating system files permanently on the hard drive",
-      "Providing physical electric power to the network card"
+      "Multi-core Processor",
+      "Single-core Transistor",
+      "Vacuum Tube",
+      "Mechanical Relay"
     ],
-    "answer": "Uniquely identifying a device logically on a network for routing data",
-    "category": "IP Addressing"
+    "answer": "Multi-core Processor",
+    "category": "Dragon Architecture"
   },
   {
     "id": 32,
-    "question": "How do IPv4 and IPv6 addresses differ with respect to their total bit lengths?",
+    "question": "Gollum and Smeagol argue in an endless circle: each personality refuses to yield until the other gives up the Ring first, causing both to freeze in total inaction. In operating systems, what is it called when two processes are permanently blocked because each holds a resource the other needs?",
     "options": [
-      "IPv4 is 32 bits, while IPv6 is 128 bits",
-      "IPv4 is 16 bits, while IPv6 is 32 bits",
-      "IPv4 is 64 bits, while IPv6 is 128 bits",
-      "IPv4 is 128 bits, while IPv6 is 256 bits"
+      "Deadlock",
+      "Segmentation Fault",
+      "Race Condition",
+      "Buffer Overflow"
     ],
-    "answer": "IPv4 is 32 bits, while IPv6 is 128 bits",
-    "category": "IP Addressing"
+    "answer": "Deadlock",
+    "category": "Middle-earth Operating Systems"
   },
   {
     "id": 33,
-    "question": "Which description accurately specifies what a MAC (Media Access Control) address is and its bit length?",
+    "question": "In the sprawling underground Labyrinth of Daedalus, passages twist and connect multiple chambers in complex interconnected webs. Which non-linear data structure of vertices (nodes) and edges represents such networks?",
     "options": [
-      "A 48-bit physical hardware address permanently assigned to a NIC",
-      "A 32-bit logical address assigned dynamically by an ISP",
-      "A 128-bit security password used for Wi-Fi encryption",
-      "An 8-bit subnet mask configured on a router"
+      "Graph",
+      "Array",
+      "Stack",
+      "Tuple"
     ],
-    "answer": "A 48-bit physical hardware address permanently assigned to a NIC",
-    "category": "MAC Addressing"
+    "answer": "Graph",
+    "category": "Mythic Data Structures"
   },
   {
     "id": 34,
-    "question": "What essential mapping task does the Address Resolution Protocol (ARP) perform on an IPv4 local network?",
+    "question": "In Quidditch, the game proceeds normally until the Golden Snitch suddenly appears, immediately halting regular play so the Seeker can dive for it. In computer hardware, what is a hardware signal that temporarily halts the CPU's current execution to handle an urgent event?",
     "options": [
-      "Resolving a known IP address to its corresponding physical MAC address",
-      "Encrypting web traffic between a browser and a server",
-      "Assigning dynamic IP addresses automatically to newly joined hosts",
-      "Translating domain names into numerical IP addresses"
+      "Interrupt",
+      "Compiler Flag",
+      "Syntax Error",
+      "Stack Overflow"
     ],
-    "answer": "Resolving a known IP address to its corresponding physical MAC address",
-    "category": "Network Protocols"
+    "answer": "Interrupt",
+    "category": "Hogwarts Hardware"
   },
   {
     "id": 35,
-    "question": "Which network service dynamically configures client endpoints with IP addresses, subnet masks, and default gateways upon connection?",
+    "question": "When Geralt drinks too many potions, his toxicity meter exceeds its maximum allowable limit, causing sudden toxicity damage. What occurs in programming when an arithmetic calculation exceeds the maximum storage capacity of a fixed-size integer?",
     "options": [
-      "DHCP (Dynamic Host Configuration Protocol)",
-      "DNS (Domain Name System)",
-      "HTTP (HyperText Transfer Protocol)",
-      "ARP (Address Resolution Protocol)"
+      "Integer Overflow",
+      "Memory Leak",
+      "Garbage Collection",
+      "Syntax Warning"
     ],
-    "answer": "DHCP (Dynamic Host Configuration Protocol)",
-    "category": "Network Protocols"
+    "answer": "Integer Overflow",
+    "category": "Witcher Programming"
   },
   {
     "id": 36,
-    "question": "Why is the Domain Name System (DNS) commonly described as the 'phonebook of the Internet'?",
+    "question": "The Iron Bank of Braavos maintains strict ledgers: every financial transfer must be fully completed or entirely undone if interrupted, with zero partial transfers allowed. Which database property guarantees that a group of database operations either all succeed or all fail together?",
     "options": [
-      "Translating human-friendly domain names (e.g., www.google.com) into numerical IP addresses",
-      "Securing file transfers with password encryption",
-      "Assigning hardware MAC addresses to network switches",
-      "Compressing image files for faster web loading"
+      "Atomicity (ACID)",
+      "Redundancy",
+      "Defragmentation",
+      "Denormalization"
     ],
-    "answer": "Translating human-friendly domain names (e.g., www.google.com) into numerical IP addresses",
-    "category": "Network Protocols"
+    "answer": "Atomicity (ACID)",
+    "category": "Citadel Databases"
   },
   {
     "id": 37,
-    "question": "What primary security distinction separates standard HTTP web traffic from secure HTTPS?",
+    "question": "The nine members of the Fellowship of the Ring travel together sharing the same quest and camp resources, but each can run and fight independently in parallel. In operating systems, what is a lightweight unit of execution within a shared process called?",
     "options": [
-      "HTTPS encrypts data transfers using SSL/TLS, whereas HTTP sends data in unencrypted plain text",
-      "HTTP is for secure banking, while HTTPS is only for public web browsing",
-      "HTTP uses port 443, while HTTPS uses port 80",
-      "HTTP is connection-oriented, while HTTPS is completely connectionless"
+      "Thread",
+      "Kernel",
+      "Virtual Machine",
+      "Compiler"
     ],
-    "answer": "HTTPS encrypts data transfers using SSL/TLS, whereas HTTP sends data in unencrypted plain text",
-    "category": "Web Protocols"
+    "answer": "Thread",
+    "category": "Middle-earth Operating Systems"
   },
   {
     "id": 38,
-    "question": "Which well-known standard TCP port numbers are assigned respectively to unencrypted HTTP and secure HTTPS communications?",
+    "question": "Harry speaks human English, but snakes understand only the native serpent language of Parseltongue. What software program translates high-level human-readable programming language source code directly into native machine code (0s and 1s) for the CPU?",
     "options": [
-      "HTTP uses port 80, and HTTPS uses port 443",
-      "HTTP uses port 21, and HTTPS uses port 22",
-      "HTTP uses port 53, and HTTPS uses port 67",
-      "HTTP uses port 25, and HTTPS uses port 110"
+      "Compiler",
+      "Text Editor",
+      "Web Browser",
+      "Graphics Driver"
     ],
-    "answer": "HTTP uses port 80, and HTTPS uses port 443",
-    "category": "Web Protocols"
+    "answer": "Compiler",
+    "category": "Hogwarts Languages"
   },
   {
     "id": 39,
-    "question": "In the standard 4-layer TCP/IP protocol suite architecture, what are the four functional layers in order?",
+    "question": "The Galactic Empire constructed the Death Star with a tiny, overlooked thermal exhaust port flaw that allows a single torpedo to destroy the whole station. In cybersecurity, what is an unintended flaw or weakness in software that can be exploited by attackers called?",
     "options": [
-      "4 layers: Network Access, Internet, Transport, and Application",
-      "7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application",
-      "3 layers: Hardware, Software, and Network",
-      "5 layers: User, Session, Packet, Frame, and Bit"
+      "Vulnerability / Exploit",
+      "Algorithm",
+      "Protocol",
+      "Firewall"
     ],
-    "answer": "4 layers: Network Access, Internet, Transport, and Application",
-    "category": "TCP/IP Model"
+    "answer": "Vulnerability / Exploit",
+    "category": "Galactic Security"
   },
   {
     "id": 40,
-    "question": "What is the key functional difference between the TCP and UDP protocols at the Transport layer?",
+    "question": "Doctor Strange confronts Dormammu by declaring 'I've come to bargain', trapping both in an endless loop that repeats as long as the condition remains true without a break. In programming, what control structure repeats a block of code as long as a condition evaluates to True?",
     "options": [
-      "TCP is reliable and connection-oriented, while UDP is faster, connectionless, and best-effort",
-      "TCP is connectionless, while UDP guarantees 100% acknowledged packet delivery",
-      "TCP operates at Layer 2, while UDP operates at Layer 7",
-      "TCP is used exclusively for video streaming, while UDP is used for web browsing"
+      "While Loop",
+      "If Statement",
+      "Switch Statement",
+      "Break Statement"
     ],
-    "answer": "TCP is reliable and connection-oriented, while UDP is faster, connectionless, and best-effort",
-    "category": "TCP/IP Model"
+    "answer": "While Loop",
+    "category": "Mystic Programming"
+  },
+  {
+    "id": 41,
+    "question": "Wildfire is a dangerous green alchemical liquid that ignites, spreads uncontrollably, and destroys whatever castle it touches. What broad term refers to destructive computer programs like viruses, worms, and ransomware engineered to harm systems?",
+    "options": [
+      "Malware",
+      "Firmware",
+      "Shareware",
+      "Freeware"
+    ],
+    "answer": "Malware",
+    "category": "Westeros Security"
+  },
+  {
+    "id": 42,
+    "question": "When Harry casts Expelliarmus against Voldemort's curse, he catches and disarms an unexpected fatal strike before it destroys him. Which programming construct is used to intercept and handle unexpected runtime errors gracefully without crashing the application?",
+    "options": [
+      "Try / Catch Block",
+      "Infinite Loop",
+      "Static Declaration",
+      "Goto Statement"
+    ],
+    "answer": "Try / Catch Block",
+    "category": "Hogwarts Programming"
+  },
+  {
+    "id": 43,
+    "question": "Elf eyes have extraordinary visual acuity: Legolas can count distant Uruk-hai riders miles away across Rohan. On computer monitors, what metric measures the total number of distinct pixels displayed horizontally and vertically (e.g. 1920x1080)?",
+    "options": [
+      "Screen Resolution",
+      "Clock Speed",
+      "Bandwidth",
+      "Refresh Latency"
+    ],
+    "answer": "Screen Resolution",
+    "category": "Middle-earth Hardware"
+  },
+  {
+    "id": 44,
+    "question": "After the defeat of the White Witch, Aslan breathes upon stone statues to restore them, clearing away useless petrified clutter from Narnia. In memory-managed programming languages (like Java and Python), what automated background process reclaims memory allocated to objects no longer in use?",
+    "options": [
+      "Garbage Collection",
+      "Manual Deallocation",
+      "Memory Leaking",
+      "Disk Defragmentation"
+    ],
+    "answer": "Garbage Collection",
+    "category": "Narnia Memory"
+  },
+  {
+    "id": 45,
+    "question": "An Owl Post delivery requires the bird to physically return with a delivery confirmation receipt, whereas an instantaneous Patronus message flashes forward quickly without waiting for an acknowledgment. Which reliable transport protocol guarantees ordered, acknowledged packet delivery similar to the owl receipt?",
+    "options": [
+      "TCP (Transmission Control Protocol)",
+      "UDP (User Datagram Protocol)",
+      "ICMP",
+      "IP"
+    ],
+    "answer": "TCP (Transmission Control Protocol)",
+    "category": "Hogwarts Protocols"
+  },
+  {
+    "id": 46,
+    "question": "The Faceless Men of Braavos disguise their internal identities behind masks, exposing only their public persona while keeping their true inner workings private. In Object-Oriented Programming (OOP), what principle bundles data and methods while hiding internal implementation details?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Polymorphism",
+      "Recursion"
+    ],
+    "answer": "Encapsulation",
+    "category": "Westeros OOP"
+  },
+  {
+    "id": 47,
+    "question": "Sauron focuses his massive dark gaze on the Black Gate, overwhelming the defending army with a relentless swarm of hundreds of thousands of Orcs at once. In networking, what cyberattack floods a target server with bogus requests to exhaust its bandwidth and crash it?",
+    "options": [
+      "DDoS (Distributed Denial of Service)",
+      "Phishing",
+      "SQL Injection",
+      "Cross-Site Scripting"
+    ],
+    "answer": "DDoS (Distributed Denial of Service)",
+    "category": "Mordor Cyberattacks"
+  },
+  {
+    "id": 48,
+    "question": "The Mirror of Erised takes the deepest desire of your heart and stores it as a visible reflection. In programming, what operator (symbol) is used to assign a computed value to a named variable (e.g. score = 100)?",
+    "options": [
+      "Single equal sign (=)",
+      "Double equal sign (==)",
+      "Arrow sign (->)",
+      "Tilde sign (~)"
+    ],
+    "answer": "Single equal sign (=)",
+    "category": "Hogwarts Programming"
+  },
+  {
+    "id": 49,
+    "question": "Geralt uses the magical Sign of Axii to charm gate guards into verifying his identity and opening city gates. In computer security, what process verifies that a user attempting to log in is truly who they claim to be (using passwords, tokens, or biometrics)?",
+    "options": [
+      "Authentication",
+      "Authorization",
+      "Auditing",
+      "Accounting"
+    ],
+    "answer": "Authentication",
+    "category": "Witcher Security"
+  },
+  {
+    "id": 50,
+    "question": "Gimli's battle axe has two sharp sides—either it strikes (1) or it rests (0). At the most fundamental electronic level, what base-2 numeral system consisting solely of 0s and 1s do all modern digital computers use to compute and store data?",
+    "options": [
+      "Binary Number System",
+      "Hexadecimal System",
+      "Octal System",
+      "Decimal System"
+    ],
+    "answer": "Binary Number System",
+    "category": "Middle-earth Hardware"
   }
 ]

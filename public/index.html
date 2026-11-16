@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>🌐 Networking Fundamentals MCQ Exam — Computer Engineering Workshop</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌐</text></svg>">
+  <title>🧙‍♂️ Realm of Code — Fantasy Computing & Programming Quest</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧙‍♂️</text></svg>">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <!-- ═══════════════ JOIN SCREEN ═══════════════ -->
   <div id="join-screen" class="screen active">
     <div class="join-card">
-      <div class="logo">🌐</div>
-      <h1>Networking Fundamentals</h1>
-      <p class="subtitle">Computer Engineering Workshop Assessment</p>
+      <div class="logo">🧙‍♂️</div>
+      <h1>Realm of Code</h1>
+      <p class="subtitle">The Grand Fantasy Computing Quest</p>
       <div class="input-group">
-        <input type="text" id="player-name" placeholder="Enter your full name..." maxlength="30" autocomplete="off" />
-        <input type="text" id="game-pin" placeholder="Enter Exam PIN..." maxlength="4" autocomplete="off" inputmode="numeric" />
-        <button id="join-btn">Join Exam</button>
+        <input type="text" id="player-name" placeholder="Enter your adventurer name..." maxlength="30" autocomplete="off" />
+        <input type="text" id="game-pin" placeholder="Enter Quest PIN..." maxlength="4" autocomplete="off" inputmode="numeric" />
+        <button id="join-btn">Begin Quest</button>
       </div>
       <p id="join-error" class="error-msg"></p>
     </div>
@@ -26,21 +26,21 @@
   <!-- ═══════════════ LOBBY SCREEN ═══════════════ -->
   <div id="lobby-screen" class="screen">
     <div class="lobby-card">
-      <div class="lobby-icon">📋</div>
+      <div class="lobby-icon">🏰</div>
       <h1>Welcome, <span id="lobby-name"></span>!</h1>
-      <p class="lobby-subtitle">You are in the waiting room. The instructor will start the exam shortly...</p>
+      <p class="lobby-subtitle">Gathering adventurers in the Great Hall. The Grand Archmage will begin the quest shortly...</p>
       <div class="lobby-waiting">
         <div class="spinner"></div>
-        <span>Waiting for instructor to begin</span>
+        <span>Waiting for the Archmage to start</span>
       </div>
       <div class="lobby-stats">
         <div class="lobby-stat">
           <span class="lobby-stat-value" id="lobby-count">0</span>
-          <span class="lobby-stat-label">Students Ready</span>
+          <span class="lobby-stat-label">Adventurers Ready</span>
         </div>
       </div>
       <div class="lobby-players-section">
-        <h3>Students in Room</h3>
+        <h3>Adventurers in the Hall</h3>
         <div id="lobby-players" class="lobby-players-grid"></div>
       </div>
     </div>
@@ -50,24 +50,24 @@
   <div id="game-screen" class="screen">
     <header class="top-bar">
       <div class="player-info">
-        <span class="player-icon">🧑‍💻</span>
+        <span class="player-icon">🧙‍♂️</span>
         <span id="display-name"></span>
       </div>
       <div class="timer-pill" id="timer-display">00:00</div>
       <div class="stats">
         <div class="stat-pill">⭐ <span id="display-score">0</span> pts</div>
-        <div class="stat-pill">📝 <span id="display-solved">0</span>/<span id="display-total">40</span></div>
+        <div class="stat-pill">📜 <span id="display-solved">0</span>/<span id="display-total">50</span></div>
       </div>
     </header>
     <main class="game-main">
       <section class="riddle-panel">
         <div id="riddle-card" class="riddle-card">
           <div class="card-meta">
-            <span class="category-badge" id="riddle-category">Networking Fundamentals</span>
-            <span class="q-progress-badge">Question <span id="q-curr-num">1</span> of <span id="q-total-num">40</span></span>
+            <span class="category-badge" id="riddle-category">Arcane Computing</span>
+            <span class="q-progress-badge">Question <span id="q-curr-num">1</span> of <span id="q-total-num">50</span></span>
           </div>
 
-          <h3 class="riddle-text" id="riddle-text">Loading question...</h3>
+          <h3 class="riddle-text" id="riddle-text">Summoning question...</h3>
 
           <div id="options-container" class="options-grid">
             <!-- Dynamic MCQ Options (A, B, C, D) -->
@@ -83,24 +83,24 @@
         <div id="complete-card" class="riddle-card hidden">
           <div class="complete-content">
             <div class="trophy">🏆</div>
-            <h2>Exam Completed!</h2>
-            <p>You have answered all questions. Your responses are recorded.</p>
+            <h2>The Grand Quest is Complete!</h2>
+            <p>You have conquered all 50 mystical computing questions. Your lore and score are sealed.</p>
             <p class="final-score">Your Score: <strong id="final-score">0</strong> pts</p>
-            <p class="final-note">Please wait for the exam time to conclude to view final class rankings.</p>
+            <p class="final-note">Please await the conclusion of the hourglass to view the realm's final champion standings.</p>
           </div>
         </div>
       </section>
 
       <section class="leaderboard-panel">
-        <h2 class="lb-title">🏆 Live Leaderboard</h2>
+        <h2 class="lb-title">🏆 Hall of Champions</h2>
         <div class="lb-header">
           <span class="lb-rank">#</span>
-          <span class="lb-name">Student</span>
-          <span class="lb-solved">Answered</span>
+          <span class="lb-name">Champion</span>
+          <span class="lb-solved">Solved</span>
           <span class="lb-score">Score</span>
         </div>
         <div id="leaderboard-list" class="lb-list">
-          <p class="lb-empty">Waiting for students...</p>
+          <p class="lb-empty">Awaiting champions...</p>
         </div>
       </section>
     </main>
@@ -110,9 +110,9 @@
   <div id="finished-screen" class="screen">
     <div class="finished-container">
       <div class="finished-header">
-        <div class="finished-icon">🎓</div>
-        <h1>Exam Concluded!</h1>
-        <p class="finished-subtitle">Official final assessment standings</p>
+        <div class="finished-icon">👑</div>
+        <h1>The Quest Has Concluded!</h1>
+        <p class="finished-subtitle">Final legendary standings across the kingdoms</p>
       </div>
       <div class="finished-stats">
         <div class="fin-stat">
@@ -121,15 +121,15 @@
         </div>
         <div class="fin-stat rank-card">
           <span class="fin-stat-value" id="fin-final-rank">—</span>
-          <span class="fin-stat-label">Your Class Rank</span>
+          <span class="fin-stat-label">Your Realm Rank</span>
         </div>
       </div>
       <div class="finished-lb">
-        <h2>🏆 Final Class Standings</h2>
+        <h2>🏆 Legendary Champions of the Realm</h2>
         <div class="lb-header">
           <span class="lb-rank">#</span>
-          <span class="lb-name">Student</span>
-          <span class="lb-solved">Answered</span>
+          <span class="lb-name">Champion</span>
+          <span class="lb-solved">Solved</span>
           <span class="lb-score">Score</span>
         </div>
         <div id="fin-leaderboard-list" class="lb-list"></div>
@@ -141,12 +141,12 @@
   <div id="tab-warning-modal" class="modal-overlay hidden">
     <div class="warning-modal-card">
       <div class="modal-icon">⚠️</div>
-      <h2>Tab Switch Detected!</h2>
-      <p class="warning-desc">Switching tabs, minimizing the browser, or leaving the exam window is strictly monitored and flagged.</p>
+      <h2>Realm Departure Detected!</h2>
+      <p class="warning-desc">Switching tabs, minimizing the quest, or departing the window is strictly monitored by the High Council.</p>
       <div class="warning-count-badge">
-        Warning <span id="warning-count-num">1</span> (Recorded by Instructor)
+        Warning <span id="warning-count-num">1</span> (Recorded by Archmage)
       </div>
-      <button id="resume-quiz-btn" class="btn-resume">Return to Exam</button>
+      <button id="resume-quiz-btn" class="btn-resume">Return to Quest</button>
     </div>
   </div>
 
